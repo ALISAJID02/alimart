@@ -3,7 +3,7 @@
 $server="localhost";
 $user="root";
 $pass="";
-$db="copyalimart";
+$db="newdatabase";
 
 $connection=new mysqli($server,$user,$pass,$db);
 
