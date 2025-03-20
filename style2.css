@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+    .upper-foot {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-lists {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .footer-text {
+        flex-wrap: wrap;
+    }
+
+    .footer-text ul {
+        display: none;
+    }
+
+    .bottom-foot {
+        flex-wrap: wrap;
+    }
+
+    .email>input {
+        width: 83%;
+    }
+}

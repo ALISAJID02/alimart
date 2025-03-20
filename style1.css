@@ -1,0 +1,336 @@
+/* Responsive styles for phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .mainnav {
+        display: none;
+    }
+
+    .btns {
+        display: none;
+    }
+
+    .textinfo {
+        width: 100%;
+    }
+
+    .textinfo span {
+        display: none;
+    }
+
+    .uppernav {
+        padding: 10px;
+    }
+
+    #navbars {
+        height: 60px;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .logo>h1 {
+        font-size: 15px;
+        line-height: 50px;
+    }
+
+    .searchbar {
+        display: none;
+    }
+
+    /* Hide searchbar and support-box on phone */
+    /* .searchbar, */
+    .support-box i,
+    .support-box p,
+    .support-box h6 {
+        display: none;
+    }
+
+    /* Adjust cart-act-section for phones */
+    .cart-act-section {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        /* background-color: red; */
+    }
+
+    .cartbox {
+        width: 45px;
+        height: 20px;
+    }
+
+    /* Adjust buttons (account, wishlist, cart) */
+    .cartbox {
+        margin-left: 0;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .cartbox:nth-child(3) {
+        padding: 0 5px;
+    }
+
+    .mainnav {
+        justify-content: space-between;
+    }
+
+    /* Hide the navigation items by default on mobile */
+    .mainnav>ul {
+        display: none;
+    }
+
+    /* Show hamburger menu on mobile */
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Show navigation when hamburger is clicked */
+    .mainnav.active>ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #fff;
+    }
+
+    .mainnav.active>ul>li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .slider {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .topproducts {
+        padding: 0 20px;
+        position: relative;
+        bottom: 110px;
+    }
+
+    .bigproduct {
+        width: 100%;
+        height: 400px;
+    }
+
+    .smallproducts {
+        display: none;
+    }
+
+    .section-topproducts {
+        position: relative;
+        bottom: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 100px 10px;
+        gap: 8px;
+    }
+
+    .section-topproducts h2 {
+        margin: 0 -50px;
+    }
+
+    .product {
+        width: 45%;
+    }
+
+    .producticon {
+        width: 100%;
+        margin-left: -20px;
+    }
+
+    .viewall {
+        position: relative;
+        bottom: 280px;
+    }
+
+    .viewall button {
+        margin-left: -40px;
+    }
+
+    .category-section {
+        position: relative;
+        bottom: 300px;
+    }
+
+    .category-section>h2 {
+        margin-left: -55px;
+    }
+
+    .category-product {
+        width: 160px;
+        font-size: 13px;
+    }
+
+    .categoryimage {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .two-offer-poster {
+        width: 100%;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 300px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .bestdeal {
+        width: 100%;
+        height: 150px;
+    }
+
+    .bestdealtext {
+        width: 50%;
+        height: 20px;
+        padding: 10px;
+    }
+
+    .bestdealtext>h5,
+    .bestdealtext>h1,
+    .bestdealtext>span {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .brand-section {
+        position: relative;
+        bottom: 260px;
+        padding: 0 10px;
+        height: 180px;
+    }
+
+    .brand-section h2 {
+        margin-left: -40px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .brand-image {
+        width: 120px;
+    }
+
+    .laptop-poster {
+        width: 100%;
+    }
+
+    .laptop-accessories-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        position: relative;
+        bottom: 300px;
+    }
+
+    .laptop-sale-product {
+        width: 140%;
+        height: 900px;
+        position: relative;
+        margin: 0;
+        padding-left: 20px;
+        /* gap: 20px; */
+        background-color: #F2F5FA;
+    }
+
+    .watch-poster-section {
+        position: relative;
+        top: 800px;
+    }
+
+
+    .latest-blog-section {
+        position: relative;
+        top: 1200px;
+    }
+
+    .watch-poster-section>img {
+        height: 250px;
+    }
+
+    .watch-text {
+        position: absolute;
+        top: 80px;
+    }
+
+    .watch-text>h4,
+    .watch-text>h1,
+    .watch-text>h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .latest-blog-section {
+        position: relative;
+        top: 680px;
+        height: 600px;
+    }
+
+    .latest-products-container {
+        height: 400px;
+        padding: 5px;
+    }
+
+    .latest-products-container h1 {
+        margin-left: -20px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+    .latest-blog-product {
+        height: 300px;
+    }
+
+    .latest-blog-product>h1,
+    .latest-blog-product>h6,
+    .latest-blog-product>h6>span {
+        font-size: 12px;
+    }
+
+    .about-section {
+        flex-wrap: wrap;
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .about {
+        width: 48%;
+        height: 50px;
+    }
+
+    .footer {
+        position: relative;
+        bottom: -680px;
+    }
+
+    .upper-foot {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-lists {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .footer-text {
+        flex-wrap: wrap;
+    }
+
+    .footer-text ul {
+        display: none;
+    }
+
+    .bottom-foot {
+        flex-wrap: wrap;
+    }
+
+    .email>input {
+        width: 83%;
+    }
+}
